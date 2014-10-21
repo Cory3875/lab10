@@ -36,7 +36,13 @@ Rectangle2 = drawpad.create_rectangle(375,600,450,475)
 Rectangle3 = drawpad.create_rectangle(260,500,360,390)
 Rectangle4 = drawpad.create_rectangle(440,360,540,260)
 
+#90 Pt
+#Door Handle and Chimney
 
+Oval = drawpad.create_oval(425,550,430,545)
+line3 = drawpad.create_line(450,150,450,100)
+line4 = drawpad.create_line(450,100,500,100)
+line5 = drawpad.create_line(500,100,500,200)
 
 
 
