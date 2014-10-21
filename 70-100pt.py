@@ -22,10 +22,32 @@ root = Tk()
 drawpad = Canvas(root, width=800,height=600, background='white')
 drawpad.grid(row=0, column=1)
 
+#70 Pt 
 #Body and roof of house
 
 Rectangle = drawpad.create_rectangle(250,600,550,250)
 line = drawpad.create_line(250,250,400,100)
 line2 = drawpad.create_line(400,100,550,250)
+
+#80 Pt
+#Windows and a door
+
+Rectangle2 = drawpad.create_rectangle(375,600,450,475)
+Rectangle3 = drawpad.create_rectangle(260,500,360,390)
+Rectangle4 = drawpad.create_rectangle(440,360,540,260)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 root.mainloop()
 
